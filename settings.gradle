@@ -18,4 +18,4 @@
 include ':app'
 // 引入 Flutter 模块
 setBinding(new Binding([gradle:this]))
-evaluate(new File(settingsDir.parentFile, 'hello_flutter/.android/include_flutter.groovy'))
+evaluate(new File(settingsDir, 'hello_flutter/.android/include_flutter.groovy'))
